@@ -1,0 +1,35 @@
+1. method 1
+
+* nama method: displayHighScorePosition
+* method punya 2 parameter
+param 1: nama pemain
+param 2: ranking, berdasarkan nilai score list pemain
+* returnna message "" / String "si anu menempati posisi ke 2 dari high score list"
+
+2. method 2
+
+* nama method: calculateHighScorePosition
+* method punya 1 parameter: nilaiScorePemain
+* return method int, berdasarkan table
+
+(score >= 1000) --> 1
+(score >= 500 && score < 1000) --> 2
+(score >= 100 && socre < 500) --> 3
+(other score) --> 4
+
+input scores:
+
+
+String displayHighScorePosition(String nama, int rangking) {
+    return "Si " + nama + " mendapatkan rangking: " + rangking;
+}
+
+int calculateHighScorePosition(int score) {
+    return
+        (score >= 1000) --> 1
+        (score >= 500 && score < 1000) --> 2
+        (score >= 100 && socre < 500) --> 3
+        (other score) --> 4
+}
+
+

@@ -1,0 +1,4 @@
+- pahami masalahna
+- apa aj requirementna
+- design
+- code your own solution
