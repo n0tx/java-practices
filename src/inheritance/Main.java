@@ -20,5 +20,6 @@ public class Main {
         animal.move(speed);
         System.out.println(animal);
         System.out.println("------");
+        System.out.println();
     }
 }

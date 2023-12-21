@@ -46,7 +46,6 @@ public class Dog extends Animal{
             System.out.println("Ow Woooo!");
         }
         bark();
-        System.out.println();
     }
 
     public void bark() {
