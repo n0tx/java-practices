@@ -14,7 +14,7 @@ public class Main {
                 break;
             }
             String title = s.nextLine();
-            Movie movie = Movie.getMovie(type, title);
+            Adventure movie = (Adventure) Movie.getMovie(type, title);
             movie.watchMovie();
         }
 
